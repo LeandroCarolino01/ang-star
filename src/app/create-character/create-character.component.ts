@@ -13,6 +13,7 @@ export class CreateCharacterComponent implements OnInit {
     {display: 'dark', value: 'dark'}
   ];
   swService: StarWarsService;
+  defaultName = 'Obi Wan';
   constructor(swService: StarWarsService) {
     this.swService = swService;
   }
